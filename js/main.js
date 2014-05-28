@@ -1,6 +1,8 @@
 //https://github.com/wagerfield/parallax
 
 $('.main-container').parallax();
+
+
     
 $('.window-icon').on('click', function(evt){
     evt.stopPropagation();
@@ -16,6 +18,7 @@ $('.window-icon').on('click', function(evt){
         width: '500px',
         height: '400px'
     });
+    $('#'+ id).draggable({ handle:'.topbar'});
 });
 
 $(document.body).on('click', '.closer', function(){
