@@ -7,6 +7,8 @@ body, html{
     color: #7c7c7c;
 }
 
+
+
 .hidden {
     display: none !important;
 }
@@ -24,7 +26,7 @@ body, html{
 }
 
 .header {
-    height: 40px;
+    height: 62px;
     background-color: #ebebeb;
 }
 
@@ -79,13 +81,13 @@ body, html{
     left: 3% !important;
     width: 25%;
     height: 20%;
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration: 20s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -webkit-box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
--moz-box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
-box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
+    box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
 }
 
 .own-face {
@@ -113,7 +115,7 @@ box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
         -webkit-transform: rotateY(0deg) rotateX(0deg);
     }
     50% {
-        -webkit-transform: rotateY(40deg) rotateX(10deg);
+        -webkit-transform: rotateY(25deg) rotateX(2.5deg);
     }
     100% {
         -webkit-transform: rotateY(0deg) rotateX(0deg);
@@ -127,9 +129,9 @@ box-shadow: 10px 10px 5px -4px rgba(113,119,133,1);
     right: 3%;
     width: 15%;
     height: 90%;
-  -webkit-box-shadow: 10px 10px 5px -4px rgba(113,119,133,0.5);
--moz-box-shadow: 10px 10px 5px -4px rgba(113,119,133,0.5);
-box-shadow: 10px 10px 5px -4px rgba(113,119,133,0.5);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(113,119,133,0.5);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(113,119,133,0.5);
+    box-shadow: 10px 10px 5px -4px rgba(113,119,133,0.5);
 }
 
 .rightbar-bg {
@@ -157,9 +159,9 @@ box-shadow: 10px 10px 5px -4px rgba(113,119,133,0.5);
     height: 0;
     border: 1px solid #DDD;
     -webkit-transform: rotateY(10deg);
--webkit-box-shadow: 4px 5px 4px 1px rgba(204,219,218,1);
--moz-box-shadow: 4px 5px 4px 1px rgba(204,219,218,1);
-box-shadow: 4px 5px 4px 1px rgba(204,219,218,1);
+    -webkit-box-shadow: 4px 5px 4px 1px rgba(204,219,218,1);
+    -moz-box-shadow: 4px 5px 4px 1px rgba(204,219,218,1);
+    box-shadow: 4px 5px 4px 1px rgba(204,219,218,1);
 }
 
 .window-bg {
