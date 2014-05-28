@@ -82,6 +82,24 @@ body {
     margin-left: 2%;
 }
 
+.own-profile {
+    background-color: #4b494a;
+    width: 10%;
+    height: 100%;
+    color: #b3b3b3;
+    font-size: 12px;
+    border-left-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-top-width: 0px;
+}
+
+.own-profile img {
+    margin-top: 5%;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+
 .own-info .name {
     color: #424242;
 }
