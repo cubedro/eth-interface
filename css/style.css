@@ -1,12 +1,19 @@
+@import url('printclearly.css');
+@import url('roboto.css');
+
 body, html{
     margin: 0;
     padding: 0;
     overflow: hidden;
     width: 100%;
     height: 100%;
-    color: #7c7c7c;
 }
 
+body {
+    font-family: 'Roboto', 'Helvetica Nue', Helvetica;
+    color: #7c7c7c;
+    font-size: 14px;
+}
 
 
 .hidden {
@@ -32,9 +39,13 @@ body, html{
 
 .logo {
     height: 100%;
-    line-height: 40px;
+    line-height: 62px;
     text-align: center;
-    width: 10%;
+    font-family: 'PrintClearly';
+    font-size: 46px;
+    letter-spacing: 1px;
+    width: auto;
+    margin-left: 20px;
 }
 
 .main-container {
